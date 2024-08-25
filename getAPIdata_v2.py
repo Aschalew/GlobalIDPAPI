@@ -2,6 +2,8 @@ import os
 import requests
 import pandas as pd
 import json
+#This Python code allows you to access DTM(Displacement Tracking Matrix) Global API 
+#and gives you the result in a different format (CSV,xlsx, and JSON)
 
 def fetch_data(api_url, params):
     # SEND a GET request to the API with the given parameters
